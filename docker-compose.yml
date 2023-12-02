@@ -1,0 +1,6 @@
+version : '3'
+
+services:
+web:
+  build:
+  command: bash -c "python manage.py makemigrations && python mamage.py migarte && python manage.py runserver"
